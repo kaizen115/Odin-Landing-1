@@ -107,6 +107,7 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     padding: 0 4rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem;
 }
 
 .hero-btn:hover {
@@ -170,4 +171,87 @@ a:hover {
 .about-text {
     color: #1F2937;
     font-weight: 700;
+}
+
+/* ------------------------- */
+/* Testimonial */
+/* ------------------------- */
+
+.testimonial {
+    color: #F9FAF8;
+    max-width: 72rem;
+    height: auto;
+    margin: 12rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 2;
+    letter-spacing: 0.1rem;
+}
+
+.testimonial-quoter {
+    font-size: 2.4rem;
+    margin-left: 30rem;
+}
+
+/* ------------------------- */
+/* CTA */
+/* ------------------------- */
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    background-color: #ced4da;
+    padding: 8rem 0;
+}
+
+.CTA-box {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-e;
+    align-items: center;
+    padding: 12rem 24rem;
+    border-radius: 1rem;
+    gap: 4.8rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.3rem;
+}
+
+.CTA-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.CTA-title {
+    font-size: 3.6rem;
+}
+
+.CTA-text {
+    font-size: 2rem;
+}
+
+.CTA-title,
+.CTA-text {
+    color: #F9FAF8;
+}
+
+/* ------------------------- */
+/* FOOTER */
+/* ------------------------- */
+
+.footer-container {
+    background-color: #1F2937;
+    padding: 2rem 0;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 1.6rem;
+    text-align: center;
 }
