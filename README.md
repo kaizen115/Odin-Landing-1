@@ -5,3 +5,5 @@ By the time of first push, I've completed about half of the Odin landing page pr
 I've customized it a bit from the template given but tried to stick to the general outline.
 
 EDIT: Finished the second half of the rough draft
+
+EDIT: Updated some minor details; colors, borders, buttons, footer.
